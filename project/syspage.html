@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="syscheck.css">
+
+</head>
+<body>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/syscheck.js" crossorigin="anonymous"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+   <nav class="navbar navbar-expand-sm" id="head-bar">
+  
+  <a class="navbar-brand" href="#">
+    <img class= "logo-img" src="https://www.bloomreach.com/binaries/ninecolumn/content/gallery/bloomreach.com_2/partners/solution-partners/epam_logo_full_color_rgb.png" alt="logo">
+  </a>
+  
+  
+  <ul class="navbar-nav ml-auto">
+    
+    <li class="nav-item" >
+      <a class="nav-link" href="#" id="usn">Username</a>
+    </li>
+    <li>
+    <img class="usr-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdX4scMS6_VoZZs9jfBnh25eY2h87587BUGw&usqp=CAU">
+    </li>
+  </ul>
+</nav>
+    <div id="container">
+    <div id="gen-ist">
+        <h2>General Instructions</h2>
+        <ul>
+            <li>The Exam is of 90 minutes and consists of 20 mcqs and 3 coding questions.</li>
+            <li>You can submit the  coding questions in python and java only.</li>
+            <li>You must be alone in the room while attempting the test.</li>
+            <li>You will be monitered during the test.</li>
+        </ul>
+    </div>
+    <div id="system-check">
+        <button id="btn" >System Check</button>
+        <h3>System Check Details</h3>
+        <div id="cam">
+            <i class="fa fa-camera"></i>
+            <label class="txt">Camera</label>
+        </div>
+        <div id="mic">
+            <i class="fa fa-microphone"></i>
+            <label class="mtxt">Microphone</label>
+        </div>
+        <div id="dow">
+            <i class="fa fa-cloud-download"></i>
+            <label class="txt">Internet Download speed</label>
+        </div>
+        <div id="upl">
+            <i class="fa fa-cloud-upload"></i>
+            <label class="txt">Internet Upload speed</label>
+        </div>
+        <div id="chr">
+            <i class="fa fa-chrome"></i>
+            <label class="txt">Chrome v70 or above</label>
+        </div>
+        
+    </div>
+    </div>
+    <div id="chk">
+        <input type="checkbox" id="vehicle1">
+        <label>I have read all the instructions and want to proceed further.</label>
+        <br>
+        <button id="btn">Start Test</button>
+    </div>
+</body>
+</html>
